@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USD:"
+            android:layout_marginRight="30px"
+            android:background="@color/cardview_shadow_end_color"
+            android:textStyle="bold"
+            android:textSize="10pt"/>
+
+
+        <EditText
+            android:id="@+id/inputid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter ammount "
+            android:inputType="number"
+            android:textSize="55px" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:textStyle="bold"
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="50px"
+        android:textSize="10pt"/>.
+    <TextView
+        android:id="@+id/outputid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OutPut: "
+        android:textStyle="bold"
+        android:textSize="10pt"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_marginTop="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:text="Go to Bmi"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

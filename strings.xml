@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Spinner Example</string>
+
+    <string-array name="numbers">
+        <item>Select</item>
+        <item>Bmi</item>
+        <item>convert</item>
+
+    </string-array>
+</resources>
